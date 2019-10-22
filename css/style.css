@@ -71,6 +71,11 @@ color: #f7c08a;
   color: white;
 }
 
+.bg-primary {
+  color: #333;
+  background: #f7c08a;
+}
+
 
 /* ---------------NAV BAR----------------------- */
 #navbar {
@@ -151,12 +156,23 @@ color: #f7c08a;
   height: 100%;
   text-align: center;
   padding: 50px 30px;
-
   /* overflow hidden makes it so that there is no scroll bars */
   overflow: hidden;
-   
 }
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* --------------FEATURES--------------- */
+.box {
+  /* this will make them go horizontal */
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
 }
