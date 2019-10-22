@@ -61,6 +61,15 @@ color: #f7c08a;
   color: #333;
 }
 
+.bg-light {
+  background: white;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
 
 
 /* ---------------NAV BAR----------------------- */
@@ -148,3 +157,6 @@ color: #f7c08a;
    
 }
 
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
