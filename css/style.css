@@ -72,8 +72,12 @@ color: #f7c08a;
 }
 
 .bg-primary {
-  color: #333;
   background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
 }
 
 
@@ -175,4 +179,13 @@ color: #f7c08a;
 
 .box i {
   margin-bottom: 10px;
+}
+
+
+/*  -------Footer------ */
+#main-footer{
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
 }
